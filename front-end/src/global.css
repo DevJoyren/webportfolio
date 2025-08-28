@@ -1,0 +1,51 @@
+@font-face {
+    font-family: poppins;
+    src: url('./assets/fonts/poppins.regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: poppins-bold;
+    src: url('./assets/fonts/poppins.bold.ttf') format('truetype');
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background-color: rgb(0, 0, 0);
+    
+}
+
+.section {
+    padding: 1rem;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+
+h1 {
+    color: white;
+    font-family: poppins;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    color: white;
+    font-family: poppins;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+#smooth-wrapper {
+  overflow: hidden;
+}
+
+#smooth-content {
+  will-change: transform;
+}
